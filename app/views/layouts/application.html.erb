@@ -14,10 +14,15 @@
   </div> 
   <div id="columns">
 	<div id="side"> 
+
 	  <a href="http://localhost:3000/">Home</a><br /> 
 	  <a href="http://www..../faq">Questions</a><br /> 
 	  <a href="http://www..../news">News</a><br /> 
 	  <a href="http://www..../contact">Contact</a><br />
+      <br /><br />
+	  <div id="cart">
+		<%= render @cart %>
+	  </div>
 	</div> 
 	<div id="main">
 	  <%= yield %>
